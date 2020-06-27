@@ -328,10 +328,10 @@ footer {
 
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
     body {
         text-align: center;
-        width: 375px;
+        width: auto;
     }
 
     .topnav {
@@ -390,11 +390,13 @@ footer {
     .mobile-main {
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 
     .mobile-main img {
         order: 1;
         margin-top: -140px;
+        width: 100%;
     }
 
     .mobile-main .intro-text {
@@ -402,7 +404,7 @@ footer {
         background-color: var(--Dark_Violet);
         margin-left: 0px;
         margin-top: 0px;
-        width: 375px;
+        width: auto;
         text-align: center;
         height: 500px;
 
@@ -490,8 +492,5 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    
-
-
-
 }
+
