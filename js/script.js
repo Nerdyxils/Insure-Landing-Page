@@ -1,6 +1,6 @@
 const mobileNav = document.getElementById('mymobilenav');
 const mobileIcon = document.getElementById('mobile_icon');
-const body = document.body;
+const body = document.getElementById('nav');
 
 body.addEventListener('click', showNav)
     function showNav() {

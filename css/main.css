@@ -68,6 +68,10 @@
     display: none;
 }
 
+.nav .logo {
+    display: none;
+}
+
 .mobile_nav {
     display: none;
 }
@@ -371,16 +375,22 @@ footer {
         cursor: pointer;
     }
 
-    .top-nav .mobile_icon {
+    .nav .mobile_icon {
         display: block;
+        float: right;
         height: 40px;
         margin-left: 180px;
         margin-bottom: 20px;
     }
 
     .top-nav .logo {
+        display: none;
+    }
+
+    .nav .logo {
+        display: block;
         margin-left: 20px;
-        margin-top: 35px;
+        margin-top: 15px;
     }
 
     .main {
